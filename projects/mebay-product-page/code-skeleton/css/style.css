@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#column-1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#column-3 {
+    margin-left: 10px;
+}
+
+#pic1 {
+    width: 150px;
+
+    
+}
+
+#pic2 {
+    width: 500px;
+}
+
+#logo {
+    width: 150px;
+}
+
+#pic3 {
+    width: 300px;
+}
