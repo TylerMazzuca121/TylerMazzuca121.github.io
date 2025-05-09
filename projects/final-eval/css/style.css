@@ -1,8 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Finger+Paint&family=Galindo&family=Mogra&display=swap');
+@media only screen and (max-width: 600px)
+
+
+ {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+
 * {
     box-sizing: border-box;
+    background-image: url(../images/pattern2.jpg) ;
+    background-size: 300px;
 }
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+    
+    font-family: "Finger Paint", sans-serif;
+    Font-weight: 400;
+        font-style: normal;
+
+    .center-column {
+    background-color: rgba(255, 255, 255, 0);
+
+    width: 50%; 
+    min-width: 500px;
+
+    margin: 0px auto; 
+    }
+
+    text-align: center;
+
+    #buttons {
+        width: 500px;
+        display: block;
+        margin: auto;
+    }
+    
+    #Font2 {
+        font-family: "Mogra", system-ui;
+    }
+
+    #Font3 {
+        font-family: "Chicle", serif;
+        font-size: 25px;
+    }
+
+    #VS {
+        display: block;
+        margin: auto;
+        width: 500px
+
+    }
+
 }
