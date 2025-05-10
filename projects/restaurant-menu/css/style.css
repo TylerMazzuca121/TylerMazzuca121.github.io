@@ -1,0 +1,168 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-family: "ccmeanwhile", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(146, 9, 9), #BE222F) ;
+    display: flex;
+    align-items: center;
+    }
+
+    #navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    }
+
+    #navbar #logo {
+    margin-right: auto;
+    }
+
+    #navbar #logo img {
+    width: 150px
+    }
+
+
+
+#redline {
+  border: 8px solid #BE222F;
+}
+
+#yellowline {
+  border: 3px solid #F8EC24;
+}
+
+#blueline {
+  border: 5px solid #243F88;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    }
+
+    #card-section {
+    background-color: #be222f00;
+    color: #243F88;
+    padding: 48px;
+    }
+
+    .card-container {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .card {
+    flex: 1;
+    border: 7px solid #243F88;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    }
+
+    .card h3 {
+    font-size: 36px;
+    margin: 0px;
+    }
+
+    .card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+    }
+
+#cards {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#headerfont {
+    font-family: "ccbiffbamboom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#font {
+    font-size: 17px;
+}
+
+.center-column {
+    background-color: #243F88;
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+    text-align: center;
+    
+}
+
+.center-column2 {
+    background-color: #BE222F;
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+    text-align: center;
+    
+}
+
+.center-column3 {
+    background-color: #243F88;
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+    text-align: center;
+    
+}
+
+.center-column4 {
+    background-color: #BE222F;
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+    text-align: center;
+    
+}
+
+#menufont {
+    color: white;
+}
+
+
+
+
+#footer {
+    background: linear-gradient(to bottom, #BE222F ,rgb(146, 9, 9));
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    margin: 0px auto;
+    font-size: 24px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

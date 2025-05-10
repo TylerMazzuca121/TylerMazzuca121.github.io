@@ -1,0 +1,228 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-family: "ccmeanwhile", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(146, 9, 9), #BE222F) ;
+    display: flex;
+    align-items: center;
+    }
+
+    #navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    }
+
+    #navbar #logo {
+    margin-right: auto;
+    }
+
+    #navbar #logo img {
+    width: 150px
+    }
+
+#hero-4 {
+    background-image: url(../images/mbhero2.jpg);
+    height: 55vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #hero-4 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    }
+
+    #hero-4 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+    }
+
+    #hero-4 h4 {
+    font-size: 24px;
+    margin: 0px;
+    }
+
+    #hero-4 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #BE222F;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    }
+
+#headerfont {
+    font-family: "ccbiffbamboom", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fullogo {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+    }
+
+
+    .side-by-side .image-container {
+    flex: 1;
+    }
+
+    .side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+    .side-by-side .image-container img {
+    width: 100%;
+    }
+
+    .side-by-side .text-container h3 {
+    font-size: 48px;
+    }
+
+    .side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #BE222F;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+    }
+
+#pizza {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+#text1 {
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+#foodbrick {
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+#redline {
+  border: 5px solid #BE222F;
+}
+
+#yellowline {
+  border: 3px solid #F8EC24;
+}
+
+#blueline {
+  border: 8px solid #243F88;
+}
+
+
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    }
+
+    #card-section {
+    background-color: #243F88;
+    color: #ffffff;
+    padding: 48px;
+    }
+
+    #card-section2 {
+    background-color: #BE222F;
+    color: #ffffff;
+    padding: 48px;
+    }
+
+    .card-container {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .card {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    }
+
+    .card h3 {
+    font-size: 36px;
+    margin: 0px;
+    }
+
+    .card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+    }
+
+
+#cards {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+
+#footer {
+    background: linear-gradient(to bottom, #BE222F ,rgb(146, 9, 9));
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    margin: 0px auto;
+    font-size: 24px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
