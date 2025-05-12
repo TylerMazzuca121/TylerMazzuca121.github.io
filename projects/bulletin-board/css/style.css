@@ -1,0 +1,96 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Coming+Soon&family=Finger+Paint&family=Galindo&family=Merienda:wght@300..900&family=Mogra&family=Protest+Revolution&family=Rubik+Marker+Hatch&display=swap');
+
+.post-it1 {
+        background-color: rgb(165, 204, 214);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+        width: 150px;
+        height: 150px;
+        font-family: "Finger Paint", sans-serif;
+        font-size: 20px;
+        text-align: center;
+   }
+
+.post-it2 {
+        background-color: rgb(162, 212, 139);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+        width: 200px;
+        height: 170px;
+        font-family: "Rubik Marker Hatch", system-ui;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        bottom: 40%;
+        left: 500%;
+   }
+
+   .post-it3 {
+        background-color: rgb(211, 117, 191);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+        width: 180px;
+        height: 180px;
+        font-family: "Galindo", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 500%;
+        top: 70%;
+   }
+
+   .post-it4 {
+        background-color: rgb(101, 75, 160);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+        width: 250px;
+        height: 250px;
+        font-family: "Coming Soon", cursive;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        left: 1000%;
+        bottom: 300%;
+   }
+
+.post-it5 {
+        background-color: rgb(209, 119, 59);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+        width: 300px;
+        height: 300px;
+        font-family: "Finger Paint", sans-serif;
+        font-size: 45px;
+        text-align: center;
+        position: relative;
+        bottom: 210%
+   }
+
+.post-it6 {
+        background-color: rgb(93, 101, 218);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+        width: 200px;
+        height: 200px;
+         font-family: "Protest Revolution", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        bottom: 400%;
+        left: 1050%;
+   }
+
