@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Coming+Soon&family=Finger+Paint&family=Galindo&family=Merienda:wght@300..900&family=Mogra&family=Protest+Revolution&family=Rubik+Marker+Hatch&family=Sigmar+One&display=swap');
+
+body {
+    margin: 0px;
+    font-family: fantasy;
+    background-color: #57031b;
+}
+
+.center-column {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+    text-align: center;
+}
+
+#headertext {
+    color: rgb(255, 255, 255);
+    font-family: "Mogra", system-ui;
+    font-size: 35px;
+}
+
+#text {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 20px;
+}
+
+#text2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family:"Mogra"
+}
+
+#drpepper {
+    width: 150px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    color: #ffffff;
+    padding: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    border-radius: 5%;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+
+#main-section {
+    padding: 48px;
+}
+
+
+
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #57031b;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+
+
+.comparisons-container {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.comparisons-container h3 {
+    font-size: 36px;
+}
+
+.comparisons-layout-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.comparisons-layout-1 .comparison-column h4,
+.comparisons-layout-1 .comparison-column p {
+    padding: 24px 48px;
+}
+
+.comparisons-layout-1 .comparison-column h4 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0px
+}
+
+.comparisons-layout-1 .comparison-column p {
+    font-size: 18px;
+    margin: 0px;
+    border-top: 3px solid #ffffff;
+}
+
+.comparisons-layout-1 .comparison-column .label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
