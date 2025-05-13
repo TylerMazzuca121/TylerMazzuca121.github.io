@@ -2,7 +2,146 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Coming+Soon&family=Finger+Paint&family=Galindo&family=Merienda:wght@300..900&family=Mogra&family=Protest+Revolution&family=Rubik+Marker+Hatch&display=swap');
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Galindo", sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+    }
+
+
+
+body {
+    margin: 0px;
+    font-family: "Mogra", system-ui;
+    }
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+    }
+
+#navbar-top {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), #c0c0c0);
+    }
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }  
+
+#navbar-top a {
+    text-decoration: none;
+    color: #833c98;
+    padding: 24px 0px;
+    }
+
+#navbar-top .content-column div a {
+    padding: 24px;
+    }
+
+#navbar-top #logo img {
+    width: 150px;
+    }
+
+#navbar-top .cta-buttom {
+    background-color: #833c98;
+    color: #ffffff;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    }
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, #c6a3d1, #833c98);
+    }
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+    }
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+    }
+
+.center-column {
+    background-color: rgb(255, 255, 255);
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+    text-align: center;
+    }
+
+#hero-1 {
+    background-image: url(../images/heroclothing.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    }
+
+#hero-1 h1 {
+    font-size: 120px; 
+    position: absolute;
+    left: 20%;
+    }
+
+#featuredclothing {
+    width: 300px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    }
+
+    #card-section {
+    background-color: #833c98;
+    color: #ffffff;
+    padding: 48px;
+    border-radius: 5%;
+    }
+
+    .card-container {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .card {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    }
+
+    .card h3 {
+    font-size: 36px;
+    margin: 0px;
+    }
+
+    .card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+    }
+
+#cards {
+    width: 150px;
+    border-radius: 5%;
+}
+
